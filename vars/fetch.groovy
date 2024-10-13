@@ -1,7 +1,7 @@
 #!/bin/bash
 
 def call() {
-  OUTPUT="$(curl http://localhost:3000/users)"
+  OUTPUT="\$(curl http://localhost:3000/users)"
   echo "You output : ${OUTPUT}"
   echo "Processing users..."
   USER_ARRAY=()
